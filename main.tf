@@ -14,7 +14,7 @@ provider "aws" {
 resource "aws_mq_broker" "example" {
   broker_name       = "example-broker"
   engine_type       = "ActiveMQ"
-  engine_version    = "5.15.14" # Or the latest supported version
+  engine_version    = "5.15.16" # Or the latest supported version
   host_instance_type = "mq.t3.micro"
 
   user {
