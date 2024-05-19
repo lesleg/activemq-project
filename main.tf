@@ -37,7 +37,7 @@ resource "aws_mq_broker" "example" {
 resource "aws_mq_configuration" "example" {
   name           = "example-configuration"
   engine_type    = "ActiveMQ"
-  engine_version = "5.15.14" # Or the latest supported version
+  engine_version = "5.15.16" # Or the latest supported version
 
   data = <<EOF
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
