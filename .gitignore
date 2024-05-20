@@ -1,3 +1,4 @@
 .idea/
 **/terraform.*
 **/.terraform/**
+**/terraform-provider-aws_v3.66.0_x5
